@@ -1,1 +1,1 @@
-# javascript_learning_valuch_jaro2025
+# javascript_learning_valouch_playwright_jaro2025
