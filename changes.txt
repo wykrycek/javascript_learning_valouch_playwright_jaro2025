@@ -1,2 +1,3 @@
+Soubor změněný na Githup v main větvi.
 Tento text jsme vložili v lokální větvi main.
 Druhý řádek lokálního textu
