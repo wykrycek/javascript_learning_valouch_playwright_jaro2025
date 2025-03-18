@@ -23,6 +23,17 @@ const students = [
 const minimumMarks = 75;
 const redDiploma = 95;
 
+for (let i = 0; i < students.length; i++) {
+    if (students[i].marks >= redDiploma) {
+        console.log(`${students[i].name} s červeným diplomem`);
+    } else if (students[i].marks >= minimumMarks) {
+        console.log(`${students[i].name} prospěl/a`);
+    } else {
+        console.log(`${students[i].name} neprospěl/a`);
+    }
+}
+
+
 students.forEach((student) => {
     let clasification = "";
     if (student.marks >= redDiploma) {
