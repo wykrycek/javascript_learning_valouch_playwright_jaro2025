@@ -13,12 +13,9 @@ logHelloWorld();
 logHelloWorld();
 
 
+
+
 // Toying with functions
-
-
-function printName(name) {
-    console.log(name);
-}
 
 const names = [
     "Jirka",
@@ -26,4 +23,20 @@ const names = [
     "Pepík",
 ];
 
+function printName(name) {
+    console.log(name);
+}
+
 names.forEach(printName);
+
+
+
+function logText(textParameter) {
+  // ? Parametr vs argument
+  // parametr je "proměnná" funkce a argument do ní přiřazujeme
+  // logText("argument"); uvnitř funkce se děje: textParameter = "argument"
+  let date = new Date().toLocaleString();
+  console.log(`[${date}] Zalování: ${textParameter}`);
+}
+
+logText("Ahoj JS světe!");
